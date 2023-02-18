@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/ynu_mark_blue"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="영남대학교 건강공제회\n약제비 공제"
+            android:textColor="#003E7E"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp">
+
+        <EditText
+            android:id="@+id/id_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:hint="아이디"></EditText>
+        <EditText
+            android:id="@+id/pw_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:hint="비밀번호"></EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/userLogin_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="사용자\n로그인"
+                android:textColor="@color/white"
+                android:backgroundTint="#003E7E"></Button>
+            <Button
+                android:id="@+id/staffLogin_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="관리자\n로그인"
+                android:textColor="@color/white"
+                android:backgroundTint="#003E7E"
+                android:layout_marginLeft="10dp"></Button>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

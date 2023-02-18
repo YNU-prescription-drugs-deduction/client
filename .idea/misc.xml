@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1595" />
+        <entry key="app/src/main/res/drawable/banks.xml" value="0.1095" />
+        <entry key="app/src/main/res/drawable/borderradius.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1595" />
+        <entry key="app/src/main/res/drawable/itembox.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/signupbtn.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.266304347826087" />
+        <entry key="app/src/main/res/layout/banks.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/document.xml" value="0.175933837890625" />
+        <entry key="app/src/main/res/layout/form.xml" value="0.14322052001953126" />
+        <entry key="app/src/main/res/layout/itembox.xml" value="0.2140625" />
+        <entry key="app/src/main/res/layout/itemlist.xml" value="0.146875" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.253125" />
+        <entry key="app/src/main/res/layout/staffitemlist.xml" value="0.29635416666666664" />
+        <entry key="app/src/main/res/layout/user_main.xml" value="0.2701077996576585" />
+        <entry key="app/src/main/res/layout/useritembox.xml" value="0.2454559326171875" />
+        <entry key="app/src/main/res/layout/useritemlist.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
